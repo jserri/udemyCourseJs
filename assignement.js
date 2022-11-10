@@ -15,3 +15,5 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+//Variable Type (3) let, const, var
