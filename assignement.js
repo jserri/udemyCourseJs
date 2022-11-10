@@ -1,13 +1,15 @@
-let country = "Italy";
-let continent = "Europe";
+//Dichiarazione Variabile (1)
+const country = "Italy";
+const continent = "Europe";
 let population = 59433744;
 
 console.log(country);
 console.log(continent);
 console.log(population);
 
-let isIsland = false;
-let language;
+//Typeof Variables (2)
+const isIsland = false;
+const language = "Italian";
 
 console.log(typeof isIsland);
 console.log(typeof population);
