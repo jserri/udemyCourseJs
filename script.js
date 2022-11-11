@@ -10,7 +10,8 @@ console.log(firstName);
 console.log(firstName);
 
 
-//Variable Name Conventions
+//VARIABLE NAME CONVENTIONS
+
 let jonas_matilda = "JM";
 let $function = 27;
 
@@ -57,7 +58,7 @@ console.log(typeof null);
 */
 
 /*
-//Variable Type (Let, Const, Var)
+//VARIABLES TYPE (Let, Const, Var)
 
 //Let can change value
 let age = 30;
@@ -112,6 +113,24 @@ const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2018);
 
 */
+
+//OPERATOR PRECEDENCE (MDN Precedence operator Table)
+
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+
+// console.log(now - 1991 > now - 2018);
+
+// console.log(25 - 10 - 5); 
+
+// let x, y; //Declare 2 undefined Variable
+
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
+
+// const averageAge = (ageJonas + ageSarah) / 2; //Resolve first in parenthesis and after divide
+// console.log(ageJonas, ageSarah, averageAge);
 
 
 
