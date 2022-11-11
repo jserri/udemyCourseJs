@@ -37,6 +37,14 @@ console.log(avrItaPopulation);
 
 let descr = country + ' ' + 'is in ' + continent + ', and its ' + itaPopulation + ' million people speak ' + language;
 console.log(descr);
+
+
+//TEMPLATE LITERALS
+let descriptionLiterals = `${country} is in ${continent}, and it's ${itaPopulation} million people speak ${language}`;
+console.log(descriptionLiterals);
+
+
+
 //Coding Challenge #1
 
 //Test 1
