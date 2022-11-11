@@ -35,16 +35,5 @@ let avrCountryPop = 3300000;
 const avrItaPopulation = itaPopulation < avrCountryPop;
 console.log(avrItaPopulation);
 
-let description = country;
-description += ' ';
-description += 'is in ';
-description += continent;
-description += ', and its';
-description += ' ';
-description += itaPopulation;
-description += ' ';
-description += 'million people speak';
-description += ' ';
-description += language;
-
-console.log(description);
+let descr = country + ' ' + 'is in ' + continent + ', and its ' + itaPopulation + ' million people speak ' + language;
+console.log(descr);
