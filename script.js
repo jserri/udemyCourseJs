@@ -134,23 +134,48 @@ console.log(now - 1991 > now - 2018);
 
 //STRING AND TEMPLATE LITERALS
 
-const firstName = 'Jonas';
-const job = 'Teacher';
-const birthYear = 1991;
-const year = 2037;
+// const firstName = 'Jonas';
+// const job = 'Teacher';
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
-console.log(jonas);
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// console.log(jonas);
 
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(jonasNew);
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew);
 
-//String Multiple Lines
-console.log('String with \n\
-multiple \n\
-lines');
+// //String Multiple Lines
+// console.log('String with \n\
+// multiple \n\
+// lines');
 
-//Use Backticks
-console.log(`String with
-multiple
-lines`);
+// //Use Backticks
+// console.log(`String with
+// multiple
+// lines`);
+
+//IF STATEMENT
+
+const age = 15;
+//const isOldEnough = age >= 18; //bad
+
+if(age >= 18) {
+    console.log('Sarah can start driving License!');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+};
+
+
+//STATEMENT WITH VARIABLES
+
+const birthYear = 2002;
+
+let century; //se non dichiariamo la variabile al di fuori dello stato, non possiamo richiamarla alla fine per il log
+if(birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
