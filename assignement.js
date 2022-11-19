@@ -80,3 +80,20 @@ console.log(markHigherBMI1);
 //Compare Test 2
 let markHigherBMI2 = bmiMark2 > bmiJohn2;
 console.log(markHigherBMI2);
+
+//IF ELSE STATEMENT
+
+// if(itaPopulation > 33000000) {
+//     console.log(`Italy's population is above average`);
+// } else {
+//     let averagePopulation = 33000000 - itaPopulation;
+//     console.log(`Italy's population is ${averagePopulation} million below average!`);
+// }
+
+// CODING CHALLENGE #2
+
+if(bmiMark1 < bmiJohn1) {
+    console.log(`Mark's BMI (${bmiMark1}) is Higher than John's (${bmiJohn1})`);
+} else {
+    console.log(`John's BMI (${bmiJohn1}) is Higher than Mark's (${bmiMark1})`);
+}

@@ -172,7 +172,7 @@ if(age >= 18) {
 
 const birthYear = 2002;
 
-let century; //se non dichiariamo la variabile al di fuori dello stato, non possiamo richiamarla alla fine per il log
+let century; //se non dichiariamo la variabile al di fuori dello stato, non possiamo richiamarla alla fine per il log aggiornato.
 if(birthYear <= 2000) {
     century = 20;
 } else {
