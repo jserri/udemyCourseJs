@@ -179,3 +179,29 @@ if(birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+
+//TYPE CONVERSION
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear); //Doesn't Change the original Value
+console.log(Number(inputYear) + 18); //Convert in Number
+
+console.log(Number('Jonas'));
+console.log(typeof NaN); //Still number but undefined
+
+console.log(String(23), 23); // Convert in String
+
+
+//Type Coercion
+
+console.log('I am' + 23 + 'years old'); //Coercion convert auto Number in String
+console.log('23' - '10' - 3); //With minus operator, js auto convert in Number
+console.log('23' * '2'); //Number
+console.log('23' / '2'); //Number
+
+//Exercise
+console.log('9' - '5'); //Number (4)
+console.log('19' - '13' + '17'); //String (617)
+console.log('19' - '13' + 17); //Number (23)
+console.log('123' < 57); //False
+console.log(5 + 6 + '4' + 9 - 4 - 2); //Number (1143)
